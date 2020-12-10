@@ -3,19 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05008E124ADB7FDA976D0518 /* Pods_dragdropfromscratchtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACF5BFBB4254B95AB93DBDF /* Pods_dragdropfromscratchtest.framework */; };
 		F6F470A6257F3DCE008C9C66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F470A5257F3DCE008C9C66 /* AppDelegate.swift */; };
 		F6F470A8257F3DCE008C9C66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F470A7257F3DCE008C9C66 /* SceneDelegate.swift */; };
 		F6F470AA257F3DCE008C9C66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F470A9257F3DCE008C9C66 /* ViewController.swift */; };
 		F6F470AD257F3DCE008C9C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F470AB257F3DCE008C9C66 /* Main.storyboard */; };
 		F6F470AF257F3DCE008C9C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F470AE257F3DCE008C9C66 /* Assets.xcassets */; };
 		F6F470B2257F3DCE008C9C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F470B0257F3DCE008C9C66 /* LaunchScreen.storyboard */; };
+		F6F470D5257F4DED008C9C66 /* DragDropTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F470D3257F4DED008C9C66 /* DragDropTableViewCell.swift */; };
+		F6F470D6257F4DED008C9C66 /* DragDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F470D4257F4DED008C9C66 /* DragDropView.swift */; };
+		F6F470D9257F4EB3008C9C66 /* global Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F470D8257F4EB3008C9C66 /* global Variables.swift */; };
+		F6F470DD257F514C008C9C66 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F470DC257F514C008C9C66 /* Model.swift */; };
+		F6F470E4258090CF008C9C66 /* ViewControllerTVDragDropExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F470E3258090CF008C9C66 /* ViewControllerTVDragDropExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9C5D31FE8FF6629D5AA6678 /* Pods-dragdropfromscratchtest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dragdropfromscratchtest.release.xcconfig"; path = "Target Support Files/Pods-dragdropfromscratchtest/Pods-dragdropfromscratchtest.release.xcconfig"; sourceTree = "<group>"; };
+		B49D7043EF3603B722C32B2E /* Pods-dragdropfromscratchtest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dragdropfromscratchtest.debug.xcconfig"; path = "Target Support Files/Pods-dragdropfromscratchtest/Pods-dragdropfromscratchtest.debug.xcconfig"; sourceTree = "<group>"; };
+		CACF5BFBB4254B95AB93DBDF /* Pods_dragdropfromscratchtest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dragdropfromscratchtest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F470A2257F3DCE008C9C66 /* dragdropfromscratchtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dragdropfromscratchtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F470A5257F3DCE008C9C66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6F470A7257F3DCE008C9C66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		F6F470AE257F3DCE008C9C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6F470B1257F3DCE008C9C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6F470B3257F3DCE008C9C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F470D3257F4DED008C9C66 /* DragDropTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDropTableViewCell.swift; sourceTree = "<group>"; };
+		F6F470D4257F4DED008C9C66 /* DragDropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDropView.swift; sourceTree = "<group>"; };
+		F6F470D8257F4EB3008C9C66 /* global Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "global Variables.swift"; sourceTree = "<group>"; };
+		F6F470DC257F514C008C9C66 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F6F470E3258090CF008C9C66 /* ViewControllerTVDragDropExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTVDragDropExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05008E124ADB7FDA976D0518 /* Pods_dragdropfromscratchtest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36B30435653154B50EFE346E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B49D7043EF3603B722C32B2E /* Pods-dragdropfromscratchtest.debug.xcconfig */,
+				A9C5D31FE8FF6629D5AA6678 /* Pods-dragdropfromscratchtest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D5FE2F4FC7C2F1E3725A549C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CACF5BFBB4254B95AB93DBDF /* Pods_dragdropfromscratchtest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F6F47099257F3DCE008C9C66 = {
 			isa = PBXGroup;
 			children = (
 				F6F470A4257F3DCE008C9C66 /* dragdropfromscratchtest */,
 				F6F470A3257F3DCE008C9C66 /* Products */,
+				36B30435653154B50EFE346E /* Pods */,
+				D5FE2F4FC7C2F1E3725A549C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,36 @@
 		F6F470A4257F3DCE008C9C66 /* dragdropfromscratchtest */ = {
 			isa = PBXGroup;
 			children = (
+				F6F470D2257F4DED008C9C66 /* View */,
 				F6F470A5257F3DCE008C9C66 /* AppDelegate.swift */,
 				F6F470A7257F3DCE008C9C66 /* SceneDelegate.swift */,
 				F6F470A9257F3DCE008C9C66 /* ViewController.swift */,
+				F6F470DB257F5117008C9C66 /* Model */,
 				F6F470AB257F3DCE008C9C66 /* Main.storyboard */,
+				F6F470D8257F4EB3008C9C66 /* global Variables.swift */,
 				F6F470AE257F3DCE008C9C66 /* Assets.xcassets */,
 				F6F470B0257F3DCE008C9C66 /* LaunchScreen.storyboard */,
 				F6F470B3257F3DCE008C9C66 /* Info.plist */,
 			);
 			path = dragdropfromscratchtest;
+			sourceTree = "<group>";
+		};
+		F6F470D2257F4DED008C9C66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6F470D3257F4DED008C9C66 /* DragDropTableViewCell.swift */,
+				F6F470E3258090CF008C9C66 /* ViewControllerTVDragDropExtension.swift */,
+				F6F470D4257F4DED008C9C66 /* DragDropView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6F470DB257F5117008C9C66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6F470DC257F514C008C9C66 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6F470B6257F3DCE008C9C66 /* Build configuration list for PBXNativeTarget "dragdropfromscratchtest" */;
 			buildPhases = (
+				1BFDB7596EA8109E88394244 /* [CP] Check Pods Manifest.lock */,
 				F6F4709E257F3DCE008C9C66 /* Sources */,
 				F6F4709F257F3DCE008C9C66 /* Frameworks */,
 				F6F470A0257F3DCE008C9C66 /* Resources */,
+				2BAE10FB6C837B2245B9B548 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +189,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BFDB7596EA8109E88394244 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dragdropfromscratchtest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BAE10FB6C837B2245B9B548 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dragdropfromscratchtest/Pods-dragdropfromscratchtest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dragdropfromscratchtest/Pods-dragdropfromscratchtest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dragdropfromscratchtest/Pods-dragdropfromscratchtest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F6F4709E257F3DCE008C9C66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F470DD257F514C008C9C66 /* Model.swift in Sources */,
+				F6F470D6257F4DED008C9C66 /* DragDropView.swift in Sources */,
+				F6F470D5257F4DED008C9C66 /* DragDropTableViewCell.swift in Sources */,
+				F6F470E4258090CF008C9C66 /* ViewControllerTVDragDropExtension.swift in Sources */,
 				F6F470AA257F3DCE008C9C66 /* ViewController.swift in Sources */,
 				F6F470A6257F3DCE008C9C66 /* AppDelegate.swift in Sources */,
 				F6F470A8257F3DCE008C9C66 /* SceneDelegate.swift in Sources */,
+				F6F470D9257F4EB3008C9C66 /* global Variables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +387,7 @@
 		};
 		F6F470B7257F3DCE008C9C66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49D7043EF3603B722C32B2E /* Pods-dragdropfromscratchtest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +406,7 @@
 		};
 		F6F470B8257F3DCE008C9C66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C5D31FE8FF6629D5AA6678 /* Pods-dragdropfromscratchtest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
